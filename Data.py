@@ -16,6 +16,7 @@ BS = ""
 BSNum = 0
 Filter = False
 
+#This code won't do much without a database set. Suffice to say, a simple MySQL table should work once the parameters are met however.
 
 class ExampleApp(Tk):  ##Makes Table and buttons come together
     def __init__(self):
